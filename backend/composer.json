@@ -1,0 +1,22 @@
+{
+	"name": "binemmanuel/backend",
+	"type": "project",
+	"require": {
+		"binemmanuel/servemyphp": "^1.0.14",
+		"vlucas/phpdotenv": "^5.5.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Binemmanuel\\Backend\\": "src/",
+			"Controller\\": "controllers/",
+			"Model\\": "models/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Bin Emmanuel",
+			"email": "53215111+binemmanuel@users.noreply.github.com"
+		}
+	],
+	"minimum-stability": "dev"
+}
